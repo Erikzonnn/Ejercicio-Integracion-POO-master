@@ -9,13 +9,11 @@ package posnet;
 
 public static void main(String args[]) {
     // Crea una instancia de Posnet
-    Posnet posnet = new Posnet();
-
-    // Crea una instancia de Persona
-    Persona p = new Persona("12312312","Pepe","Gomez","1112345678","pepe@fakemail.com");
-
-    // Crea una instancia de TarjetaDeCredito
-    TarjetaDeCredito t = new TarjetaDeCredito("FakeBank","1234567890123456", 15000, p, EntidadFinanciera.BIRZA);
+        Posnet posnet = new Posnet();
+        // Crea una instancia de Persona
+        Persona p = new Persona("12312312","Pedro","Juan","1112345678","pedro@gmail.com");
+        // Crea una instancia de TarjetaDeCredito
+        TarjetaDeCredito t = new TarjetaDeCredito("VISA","1234567890123456", 15000, p, EntidadFinanciera.BIRZA);
 
     // Realiza el pago con Posnet y genera un Ticket
     System.out.println("Ticket tras pagar...");
@@ -29,7 +27,3 @@ public static void main(String args[]) {
     System.out.println(t);
 }
 ```
-
-## Repositorio
-
-[GIT](https://github.com/giandb99/Ejercicio-Integracion-POO)
