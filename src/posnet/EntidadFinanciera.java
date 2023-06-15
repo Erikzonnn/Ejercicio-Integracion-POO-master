@@ -11,5 +11,5 @@ package posnet;
  * Esta clase no tiene métodos.
 */
 public enum EntidadFinanciera {
-    BIRZA,CASTERMARD;
+    VIZA,MasterCard;
 }

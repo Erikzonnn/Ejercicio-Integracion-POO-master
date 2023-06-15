@@ -34,7 +34,7 @@ public class Principal {
         // Crea una instancia de Persona
         Persona p = new Persona("12312312","Pedro","Juan","1112345678","pedro@gmail.com");
         // Crea una instancia de TarjetaDeCredito
-        TarjetaDeCredito t = new TarjetaDeCredito("VISA","1234567890123456", 15000, p, EntidadFinanciera.BIRZA);
+        TarjetaDeCredito t = new TarjetaDeCredito("VISA","1234567890123456", 15000, p, EntidadFinanciera.VIZA);
                 
         // Imprime el estado de la TarjetaDeCredito antes del pago
         System.out.println("Tarjeta antes del pago");
